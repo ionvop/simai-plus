@@ -21,7 +21,7 @@ Instead of writing `{n}` to define the length divider, it is now defined by its 
 }
 ```
 
-Is the same as
+It behaves the same as
 
 ```
 {2}
@@ -38,7 +38,7 @@ To which a lot of people may think that it just makes it more complicating, but 
 
 ### Comments
 
-You're now able to write comments within the fumen which will be ignored when transpiled.
+It is now possible to write comments within the fumen which will be ignored when transpiled.
 
 ```
 {
@@ -57,7 +57,7 @@ You're now able to write comments within the fumen which will be ignored when tr
 
 ### Slide waiting time
 
-You're now able to use note lengths to determine the waiting time of a slide instead of just one beat of the bpm by using 3 numbers signs `###` as the separation between the waiting time and the tracing length. The transpiler will calculate the milliseconds of the note lengths by the current bpm which will be used in the transpiled fumen.
+It is now possible to use note lengths to determine the waiting time of a slide instead of just one beat of the bpm by using 3 numbers signs `###` as the separator between the waiting time and the tracing length. The transpiler will calculate the milliseconds of the note lengths by the current bpm which will be used in the transpiled fumen.
 
 ```
 (170)
@@ -67,7 +67,7 @@ You're now able to use note lengths to determine the waiting time of a slide ins
 }
 ```
 
-Is the same as
+It behaves the same as
 
 ```
 (170)
